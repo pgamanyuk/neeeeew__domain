@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    
+    font-family: 'Solway', serif;
+    font-size: 14px;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+
+    background-color: #fff;
+  
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+ 
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+.page {
+    height: 100vh;
+}
+
+.container {
+    margin: 0 auto;
+    width: 300px;
+}
+
+.header {
+    margin-top: 30px;
+    margin-bottom: 70px;
+    
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.content__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item__img {
+    width: 150px;
+    height: 150px;
+}
+
+.item__name {
+    margin-top: 10px;
+    
+    font-weight: 700;
+    text-align: center;
+    font-size: 25px;
+}
+
+.item__points {
+    margin: 20px 0;
+    
+    font-weight: 700;
+    text-align: center;
+    font-size: 25px;
+}
+
+.btn {
+    width: 80px;
+    height: 40px;
+    background-color:#f62d2d;
+    border-radius:28px;
+    border:1px solid #b30808;
+
+
+    color:#ffffff;
+    text-align: center;
+
+    font-size:20px;
+    font-weight: 700;
+
+    text-decoration:none;
+    outline: none;
+    
+}
+
+.reset {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-reset {
+    margin-top: 30px;
+  
+    text-align: center;
+
+    width: 150px;
+    height: 40px;
+    background-color:#f62d2d;
+    border-radius:28px;
+    border:1px solid #b30808;
+
+
+    color:#ffffff;
+
+    font-size:20px;
+    font-weight: 700;
+
+    text-decoration:none;
+    outline: none;
+}
+
+.timer {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.timer__item {
+    display: flex;
+    flex-direction: column;
+    margin-right: 3px;
+
+}
+
+.timer__number {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.dot {
+    font-size: 30px;
+    font-weight: 700;
+}
